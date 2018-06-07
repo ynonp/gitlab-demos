@@ -1,0 +1,6 @@
+add a 10
+add a 2
+add b 5
+sub a 7
+sub a 4
+print a
