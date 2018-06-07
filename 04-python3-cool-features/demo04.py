@@ -3,7 +3,7 @@ from collections import defaultdict
 
 dirs = defaultdict(int)
 
-for fname in Path('.').glob('**/*.py'):
+for fname in Path('.').glob('**/*.pl'):
     directory = fname.resolve().parents[0]
     dirs[str(directory)] += 1
 

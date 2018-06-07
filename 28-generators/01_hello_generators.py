@@ -1,6 +1,6 @@
 # Generator Function
 def fib():
-    x, y = 1, 1
+    x, y = 20, 30
     while True:
         yield x
         x, y = y, x + y
