@@ -1,6 +1,10 @@
 from skimage import io
 from skimage.viewer import ImageViewer
 
+print("file 2")
+#######
+
+
 url = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/5217/faces.jpg'
 
 image = io.imread(url)
